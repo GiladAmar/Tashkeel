@@ -1,0 +1,28 @@
+Learning Arabic? Then you know the problem: real-world Arabic — news sites, Wikipedia, blogs, song lyrics — is written without tashkeel (the harakat that mark short vowels), so there's no way to tell how an unfamiliar word is pronounced. Tashkeel fixes that in one click.
+
+Highlight some Arabic text and click the Tashkeel icon: the text is rewritten in place with full diacritics. Click with nothing selected and the whole page gets tashkeel, with results appearing on screen as they are computed — a full news homepage takes just a few seconds.
+
+WAYS TO USE IT
+• Click the toolbar icon — tashkeel for the selection, or the whole page if nothing is selected.
+• Right-click → "Add tashkeel", or "Add tashkeel to the whole page".
+• Keyboard shortcut: Alt+Shift+N (⌥+Shift+N on Mac).
+• "Remove tashkeel" restores the original text exactly.
+• Works inside text boxes too — Gmail compose, comment fields, online editors.
+• Google Docs or Word Online? Pages like these can't be edited by extensions, so Tashkeel includes a paste page: right-click the toolbar icon → "Open paste page", then paste, click, and copy the vocalised text back.
+
+PRIVATE AND FAST
+• Everything runs on your device, using a neural network (TensorFlow.js with a WebAssembly engine). Your text never leaves the browser — no server, no account, no tracking, and it works offline.
+• The extension loads only when you invoke it. It does not run in the background or touch pages you don't use it on.
+• Running it again on the same page (say, after an infinite-scroll site loads more articles) processes only the new text, in a fraction of the time.
+
+The model is not perfect, but it performs really well on Modern Standard Arabic — the register of news, Wikipedia and formal writing.
+
+KNOWN ISSUES
+• "I don't see the Tashkeel icon in my toolbar" — Chrome sometimes hides newly installed extensions. Click the puzzle-piece icon at the top right and pin Tashkeel to the toolbar.
+• Google Docs and Word Online can't be edited in place (that's a Chrome limitation, not a Tashkeel one) — use the built-in paste page instead.
+
+Tashkeel is free, always will be, and open source: github.com/GiladAmar/Tashkeel. If you're curious how a Chrome extension runs a neural network with TensorFlow.js, take a peek.
+
+If it helps you, you can support further development at paypal.me/GiladAmar. If not, no worries.
+
+Credit where it's due: the diacritization model is Shakkala by Ahmad Barqawi (github.com/Barqawiz/Shakkala), a character-level BiLSTM for Arabic text vocalization, used here under the MIT license and converted to run in the browser with TensorFlow.js. Thank you — it's a really cool and original use of machine learning.

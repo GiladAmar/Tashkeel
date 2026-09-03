@@ -1,0 +1,13 @@
+.cache
+.DS_Store
+.idea
+dist
+node_modules
+.parcel-cache
+tests/fixtures/*
+!tests/fixtures/regression-page.html
+
+# Arabic model build scratch (venv, Shakkala clone, converted model copy)
+arabic_model_build
+# CATT PyTorch weights from the other prototype (unused by the tfjs/Shakkala path)
+models
