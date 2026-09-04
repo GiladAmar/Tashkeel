@@ -2,6 +2,10 @@
 .DS_Store
 .idea
 dist
+# packaged build artifacts
+dist.zip
+dist.crx
+dist.pem
 node_modules
 .parcel-cache
 tests/fixtures/*
