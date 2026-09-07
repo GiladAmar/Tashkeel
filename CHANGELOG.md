@@ -1,5 +1,16 @@
 # What's new in Tashkeel
 
+## Version 1.1
+
+A small maintenance release.
+
+- **Rate Tashkeel**: the toolbar icon's right-click menu now has a "★ Rate
+  Tashkeel on the Web Store" shortcut that opens the listing's reviews — the
+  main way other Arabic learners find the extension. No change to how
+  diacritization works.
+- The "Homepage" link on the extension's details page now points at the
+  project repository instead of the author's GitHub profile.
+
 ## Version 1.0
 
 The first release. Tashkeel adds full diacritics (tashkeel / harakat) to
