@@ -14,7 +14,10 @@ describe('manifest', () => {
     });
 
     test('is the Arabic Tashkeel extension', () => {
-        assert.equal(manifest.name, 'Tashkeel');
+        // The store listing title is the manifest name; it leads with the
+        // brand and carries the search terms the store indexes.
+        assert.match(manifest.name, /^Tashkeel\b/);
+        assert.match(manifest.name, /Arabic/);
     });
 
     test('content script is injected on demand only, not on every page', () => {
