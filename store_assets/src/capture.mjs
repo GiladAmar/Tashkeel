@@ -5,8 +5,8 @@ import {tmpdir} from 'node:os';
 import {join} from 'node:path';
 import puppeteer from 'puppeteer';
 
-const REPO = '/Users/giladamar/PycharmProjects/Nekudot';
-const OUT = '/Users/giladamar/PycharmProjects/Nekudot/store_assets/src/raw';
+const REPO = '/Users/giladamar/PycharmProjects/Tashkeel';
+const OUT = '/Users/giladamar/PycharmProjects/Tashkeel/store_assets/src/raw';
 await mkdir(OUT, {recursive: true});
 
 // Arabic tashkeel (diacritics): U+064B..U+0652 — matches TASHKEEL_RE in

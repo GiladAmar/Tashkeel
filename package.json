@@ -1,6 +1,6 @@
 {
   "name": "tashkeel",
-  "version": "1.0",
+  "version": "1.1",
   "description": "Add tashkeel (diacritics) to Arabic text.",
   "keywords": [
     "tensorflow",

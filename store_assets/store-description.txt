@@ -1,4 +1,4 @@
-Learning Arabic? Then you know the problem: real-world Arabic — news sites, Wikipedia, blogs, song lyrics — is written without tashkeel (the harakat that mark short vowels), so there's no way to tell how an unfamiliar word is pronounced. Tashkeel fixes that in one click.
+Learning Arabic? Then you know the problem: real-world Arabic — news sites, Wikipedia, blogs, song lyrics — is written without tashkeel (تشكيل): the diacritics, or harakat (حركات), that mark the short vowels. With them gone, there's no way to tell how an unfamiliar word is pronounced. Tashkeel adds them back — full Arabic diacritics, on any page — in one click.
 
 Highlight some Arabic text and click the Tashkeel icon: the text is rewritten in place with full diacritics. Click with nothing selected and the whole page gets tashkeel, with results appearing on screen as they are computed — a full news homepage takes just a few seconds.
 
@@ -20,6 +20,9 @@ The model is not perfect, but it performs really well on Modern Standard Arabic 
 KNOWN ISSUES
 • "I don't see the Tashkeel icon in my toolbar" — Chrome sometimes hides newly installed extensions. Click the puzzle-piece icon at the top right and pin Tashkeel to the toolbar.
 • Google Docs and Word Online can't be edited in place (that's a Chrome limitation, not a Tashkeel one) — use the built-in paste page instead.
+
+ENJOYING IT?
+If Tashkeel helps you, a quick rating or review on the Chrome Web Store makes a real difference — it's the main way other Arabic learners find it. You can open the review page any time: right-click the toolbar icon → "★ Rate Tashkeel on the Web Store". Thank you.
 
 Tashkeel is free, always will be, and open source: github.com/GiladAmar/Tashkeel. If you're curious how a Chrome extension runs a neural network with TensorFlow.js, take a peek.
 

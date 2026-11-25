@@ -1,8 +1,8 @@
 {
-  "name": "Tashkeel",
-  "version": "1.0",
-  "description": "Add tashkeel (diacritical marks) to Arabic text.",
-  "homepage_url": "https://github.com/GiladAmar",
+  "name": "Tashkeel — Arabic Diacritics (Harakat)",
+  "version": "1.1",
+  "description": "Add Arabic diacritics — tashkeel / harakat / short vowels — to any web page in one click. On-device, private, offline.",
+  "homepage_url": "https://github.com/GiladAmar/Tashkeel",
   "manifest_version": 3,
   "background": {
     "service_worker": "background.js"
